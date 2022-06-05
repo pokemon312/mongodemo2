@@ -1,0 +1,167 @@
+body{
+margin: 0;
+font-family: "proxima-nova",sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.63;
+color: #32325d;
+text-align: left;
+background-color: #fff;
+box-sizing: border-box;
+max-width: 100%;
+}
+div{
+    display: block;
+}
+.topmost{
+    height:40px;
+    background: radial-gradient(circle, #164ea1 0%, #28024e 100%);
+    text-align: center;
+    padding-top: 10px;
+    max-width: 100%;
+}
+.writeforhevo{
+    color:orange;
+    text-decoration:none;
+}
+.writeforhevo:hover{
+color: rgb(255, 129, 2);
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    padding-left: 4%;
+    padding-right: 4%;
+   justify-content: space-between;
+   
+}
+#site-search{
+    border: 0;
+    outline: none;
+    padding-top: 5px;
+}
+.btn-main{
+    background-color: #fd8412;
+    border-color: #fd8412;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.25rem;
+    letter-spacing: 0.5px;
+    padding: 0.75rem 1.5rem;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;  
+}
+li{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: rgba(66,70,114,0.8);
+    display: list-item;
+    
+    text-decoration: none;
+}
+ul{
+    list-style-type: disc;
+    display: flex;
+    margin-right: auto;
+}
+.sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top:156px;
+    padding: 1.25rem 1rem;
+    border: 1px solid #e7ecf0;
+    background-color: #fafafa;
+    border-radius: .5rem;
+    padding-left: 20%;
+    line-height: 1.7rem;
+}
+
+.hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+.hover:hover{
+    color:#fd8412;
+}
+.blog-content{
+    font-size:  1.125em;
+}
+.blog-content li a{
+    color:#fd8412;
+    text-decoration: none;
+    list-style:armenian;
+}
+ul li::marker {
+    color:black;
+    font-size: 1.5em;
+  }
+.centercontent{
+    
+}
+.note{
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: solid 1px #e7ecf0;
+}
+.sidebar2 a span{
+    display: inline-block;
+}
+.centercontent a{
+    color:#fd8412;
+    text-decoration: none;
+    list-style:armenian;
+}
+td{
+    white-space: nowra;
+    padding: 1rem;
+}
+.continueread{
+    display: flex;
+    margin-top: 53px;
+    justify-content: space-around;
+}
+i{
+    cursor: pointer;
+}
+i:hover{
+    color: #fd8412;
+}
+#abstract-footer{
+     transform: skewY(0deg);
+    transform-origin: 100%;
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+.beforefoot{
+    font-family: "Source Sans Pro",sans-serif;
+    overflow: hidden;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    background-color: #28024e;
+    background-image: url(https://www.hevodata.com/static/images/abstract/footer-abstract.svg);
+    background-position:right ;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.end i{
+    color: #8898aa;
+    cursor:pointer;
+    font-family: "Source Sans Pro",sans-serif;
+
+}
+.end i:hover{
+    color: #8898aac6;
+}
